@@ -1,0 +1,5 @@
+https://www.cnblogs.com/feiyun126/p/7680534.html 动态扩容  
+特别注意成功后：xfs_growfs /dev/mapper/centos-root
+https://blog.51cto.com/keep88/2069687   
+
+这两部分内容结合起来看比较好
