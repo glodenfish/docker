@@ -1,0 +1,11 @@
+this is : docker-compose.yml for nexus editor
+version: '2'
+
+services:
+  nexus:
+    restart: always
+    image: sonatype/nexus3
+    volumes:
+    - /home/gitlab/docker/nexus/nexus-data:/var/lib/nexus-data:Z
+    ports:
+    - 8081:8081
